@@ -46,3 +46,46 @@ nav ul li a{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+h1,h2,h3{
+    text-align: justify;
+    margin: 0 ;
+}
+p{
+    margin: 0 5%;
+}
+.info{
+    margin:0 5%;
+    padding-top: 20px;
+    
+}
+.float{
+    position: absolute;
+    padding: 30px 0;
+    background-color: darkseagreen;
+    width: 960px;
+    margin: 20px auto;
+    margin-left: 1.5%;
+    animation-name: float;
+    animation-duration: 1.5s;
+    
+}
+@keyframes float {
+    0%{opacity: 0;}
+    50%{opacity: 0; margin: -20px auto;margin-left: -4%;}
+
+    }
+.contenedor{
+    background-color: rgb(102, 172, 172);
+    width:1000px;
+    height: 525px;
+    margin: 50px auto;
+    padding-bottom: 30px;
+}
+.info ul{
+    list-style: circle;
+    list-style-position: inside;
+}
+.info ul li{margin: 5px 0;}
+.float h3{
+    margin-left:70px ;
+}

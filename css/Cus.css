@@ -46,3 +46,31 @@ nav ul li a{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+#boxform{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: left;
+    background-color: lightskyblue;
+    border: 4px;
+    border-style: dashed;
+    border-radius: 15px;
+    animation: boxform 1.5s;
+    position: relative;
+
+}
+@keyframes boxform {
+    0%{opacity: 0;bottom:100px;}
+    100%{bottom: 0px;}
+    
+}
+
+#boxapellido{
+    float: right;
+    margin-right: 50px
+
+}
+#Mensaje{
+    width: 390px;
+    height: 100px;
+}

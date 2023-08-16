@@ -5,6 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
 header{
     background-color:rgb(14, 15, 78);
     width: 100%;
@@ -46,8 +47,64 @@ nav ul li a{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+h1,h2,h3{
+    margin: 0px 5%;
+    text-indent: 2em;
+}
 p{
-  margin-left: 5%;
-  text-indent: 2em;
-  text-align: justify;
+    margin:0 5%;
+}
+.info{
+    margin-right: 25%;
+    padding-top: 20px;
+    text-indent: 1em;
+}
+.float{
+    position: fixed;
+    background-color: darkseagreen;
+    width: 20%;
+    margin: 10px 5px 5px 53.6% ;
+    animation-name: float;
+    animation-duration: 1s;
+}
+@keyframes float {
+    0%{opacity: 0; margin: -30px 5px 5px 50% ;}
+    }
+.contenedor{
+    background-color: rgb(102, 172, 172);
+    width:1000px;
+    margin: 50px auto;
+    padding-bottom: 30px;
+}
+.images{
+    width: 280px;
+    height: 130px;
+    margin: 0 28% 15px 28%;
+    
+}
+#conden{
+    width: 280px;
+    height: 180px;
+    margin: 0 28% 15px 28%;
+}
+#bat{
+    width:200px;
+    height: 200px;
+    margin: 0 32% 15px 32%;
+}
+#usos{
+    list-style: square;
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 10px;
+    
+}
+.info ul {
+    list-style: circle;
+    list-style-position: inside;
+    margin-left: 80px;
+}
+.float ul li{
+    margin: 5px 0;
 }
