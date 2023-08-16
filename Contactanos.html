@@ -6,7 +6,9 @@
     <title>Contactanos</title>
     <link rel="stylesheet" href="css/Cus.css">
 </head>
-<body>
+<body background="img/electronica-digital-aplicaciones.jpg">
+    
+    
     <header>
         <div class="menu">
             <img id="logo" src="img/,k.png" alt="LOGO">
@@ -21,8 +23,21 @@
             </nav>
         </div>
     </header>
+    <div id="boxform">
     <form action="Contactanos">
-
+        <span id="boxapellido">
+            <label for="Apellido">Apellido:</label> <br>
+            <input type="text" name="Apellido" id="Apellido" placeholder="Ej: Barraza, Quitero,etc...">
+            </span>
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Ej:Juanito, Pedro,etc...">
+        <br>
+         <br>
+        <label for="email">Ingrese su email:</label> <br>
+        <input placeholder="email" type="email" name="email" id="em"> <br><br>
+        <label for="Mensaje">Mensaje:</label><br>
+        <textarea name="Mensaje" id="Mensaje" placeholder="Ingresa tu Mensaje acá"></textarea>
     </form>
+</div>
 </body>
 </html>
